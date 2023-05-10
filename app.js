@@ -3,6 +3,8 @@ const fs = require("fs");
 
 const TIMEOUT = 5000;
 
+// test
+
 function wait(val) {
   return new Promise(resolve => setTimeout(resolve, val));
 }
